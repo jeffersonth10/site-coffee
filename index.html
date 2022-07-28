@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <title>COFFEE</title>
 </head>
 
 <body>
 
-    <!--Inicio - Cabeçalho-->
+    <!-- Inicio - Cabeçalho -->
     <header class="header">
 
         <div id="menu-btn" class="fas fa-bars"></div>
@@ -23,24 +23,26 @@
         <nav class="navbar">
             <a href="#home">Home</a>
             <a href="#about">Sobre</a>
-            <a href="#menu">Cardapio</a>
-            <a href="#customers">Clientes</a>
+            <a href="#menu">Cardápio</a>
+            <a href="#review">Avaliações</a>
             <a href="#buy">Compre Agora</a>
         </nav>
 
-        <a href="#" class="btn">Reservar uma mesa</a>
-    </header>
-    <!--Final - Cabeçalho-->
+        <a href="#book" class="btn">Reservar uma mesa</a>
 
-    <!--Inicio - Seção Principal-->
+    </header>
+    <!-- Fim - Cabeçalho -->
+
+    <!-- Inicio - Seção Principal -->
     <main>
+
         <section class="home" id="home">
 
             <div class="row">
 
                 <div class="content">
                     <h3>Café Matinal</h3>
-                    <a href="#" class="btn">Peça já o seu</a>
+                    <a href="#book" class="btn">Peça já o seu</a>
                 </div>
 
                 <div class="image">
@@ -56,10 +58,11 @@
             </div>
 
         </section>
-    </main>
-    <!--FIM - Seção Principal-->
 
-    <!-- Sobre - inicio -->
+    </main>
+    <!-- Fim - Seção Principal -->
+
+    <!-- inicio - Sobre -->
     <section class="about" id="about">
 
         <h1 class="heading">Sobre nós</h1>
@@ -89,13 +92,15 @@
                         <h3>Entrega Grátis</h3>
                     </div>
                 </div>
+
             </div>
+
         </div>
 
     </section>
-    <!-- Sobre - FIM -->
+    <!-- Fim - Sobre -->
 
-    <!-- Cardapio - Inicio -->
+    <!-- Inicio - Cardápio -->
     <section class="menu" id="menu">
 
         <h1 class="heading">Nosso Cardápio</h1>
@@ -155,11 +160,13 @@
                     <span>R$ 9,99</span>
                 </div>
             </a>
-        </div>
-    </section>
-    <!-- Cardapio - Fim -->
 
-    <!-- Avaliações - Inicio-->
+        </div>
+
+    </section>
+    <!-- Fim - Cardápio ->
+
+    <!-- Inicio - Avaliações -->
     <section class="review" id="review">
 
         <h1 class="heading">Avaliações</h1>
@@ -232,30 +239,85 @@
                     <h3>Ana Luiza</h3>
                     <span>Cliente Satisfeito</span>
                 </div>
+
             </div>
 
-          <div class="swiper-pagination"></div>
+            <div class="swiper-pagination"></div>
 
         </div>
+
+    </section>
+    <!-- Fim - Avaliações -->
+
+    <!-- Inicio - Pedidos -->
+    <section class="book" id="book">
+
+        <h1 class="heading">Reservas</h1>
+
+        <form action="">
+
+            <input type="text" placeholder="Seu Nome" class="box">
+            <input type="email" placeholder="Seu E-mail" class="box">
+            <input type="number" placeholder="Seu Numero" class="box">
+
+            <textarea name="" placeholder="Sua Mensagem" class="box" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Enviar Mensagem" class="btn">
+
+        </form>
+
     </section>
 
+    <!-- Fim - Pedidos-->
 
+    <!-- Inicio - Rodapé -->
+    <section class="footer">
 
+        <div class="box-container">
 
+            <div class="box">
+                <h3>Nossas Filiais</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i>São Paulo-SP</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Rio de Janeiro-RJ</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Recife-PE</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Goiania-GO</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>João Pessoa-PB</a>
+            </div>
 
+            <div class="box">
+                <h3>Links Rapidos</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Sobre</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Cardapio</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Clientes</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Compre Agora</a>
+            </div>
 
+            <div class="box">
+                <h3>Informações de Contato</h3>
+                <a href="#"> <i class="fas fa-phone"></i>83 8888-8888</a>
+                <a href="#"> <i class="fas fa-phone"></i>83 8888-8888</a>
+                <a href="#"> <i class="fas fa-envelope"></i>jefferson-thales@hotmail.com</a>
+                <a href="#"> <i class="fas fa-building"></i>João Pessoa-PB</a>
+            </div>
 
+            <div class="box">
+                <h3>Redes Sociais</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i>Facebook</a>
+                <a href="#"> <i class="fab fa-twitter"></i>Twitter</a>
+                <a href="#"> <i class="fab fa-instagram"></i>Instagram</a>
+                <a href="#"> <i class="fab fa-linkedin"></i>Linkedin</a>
+            </div>
 
+        </div>
 
+        <div class="credit"> Criado por Jefferson Thales </div>
 
-
-
-
-    <!-- Avaliações - Fim-->
-
+    </section>
+    <!-- Fim - Rodapé -->
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-     
+
     <script src="script.js"></script>
 </body>
 
